@@ -12,6 +12,14 @@
 		F58F85421BFE8E9600AB626B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58F85401BFE8E9600AB626B /* Main.storyboard */; };
 		F58F85441BFE8E9600AB626B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58F85431BFE8E9600AB626B /* Assets.xcassets */; };
 		F58F85471BFE8E9600AB626B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58F85451BFE8E9600AB626B /* LaunchScreen.storyboard */; };
+		F58F85501BFED58000AB626B /* python.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F58F854F1BFED58000AB626B /* python.jpg */; };
+		F58F85541BFED59000AB626B /* html.png in Resources */ = {isa = PBXBuildFile; fileRef = F58F85531BFED59000AB626B /* html.png */; };
+		F58F85561BFED59700AB626B /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = F58F85551BFED59700AB626B /* swift.png */; };
+		F58F85581BFED59C00AB626B /* ruby-on-rail.png in Resources */ = {isa = PBXBuildFile; fileRef = F58F85571BFED59C00AB626B /* ruby-on-rail.png */; };
+		F58F855C1BFED5A800AB626B /* net-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F58F855B1BFED5A800AB626B /* net-icon.png */; };
+		F58F855E1BFED5BB00AB626B /* java.png in Resources */ = {isa = PBXBuildFile; fileRef = F58F855D1BFED5BB00AB626B /* java.png */; };
+		F5B5A3CC1C05350A004BDFCC /* cpp.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B5A3CB1C05350A004BDFCC /* cpp.png */; };
+		F5B5A3CE1C05350E004BDFCC /* obj.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B5A3CD1C05350E004BDFCC /* obj.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		F58F85431BFE8E9600AB626B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58F85461BFE8E9600AB626B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58F85481BFE8E9600AB626B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58F854F1BFED58000AB626B /* python.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = python.jpg; sourceTree = "<group>"; };
+		F58F85531BFED59000AB626B /* html.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = html.png; sourceTree = "<group>"; };
+		F58F85551BFED59700AB626B /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift.png; sourceTree = "<group>"; };
+		F58F85571BFED59C00AB626B /* ruby-on-rail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruby-on-rail.png"; sourceTree = "<group>"; };
+		F58F855B1BFED5A800AB626B /* net-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "net-icon.png"; sourceTree = "<group>"; };
+		F58F855D1BFED5BB00AB626B /* java.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = java.png; sourceTree = "<group>"; };
+		F5B5A3CB1C05350A004BDFCC /* cpp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpp.png; sourceTree = "<group>"; };
+		F5B5A3CD1C05350E004BDFCC /* obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obj.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 		F58F85301BFE8E9600AB626B = {
 			isa = PBXGroup;
 			children = (
+				F58F854E1BFED2D200AB626B /* Images */,
 				F58F853B1BFE8E9600AB626B /* LearnCodingFree */,
 				F58F853A1BFE8E9600AB626B /* Products */,
 			);
@@ -62,6 +79,21 @@
 				F58F85481BFE8E9600AB626B /* Info.plist */,
 			);
 			path = LearnCodingFree;
+			sourceTree = "<group>";
+		};
+		F58F854E1BFED2D200AB626B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F58F85551BFED59700AB626B /* swift.png */,
+				F58F855D1BFED5BB00AB626B /* java.png */,
+				F5B5A3CB1C05350A004BDFCC /* cpp.png */,
+				F5B5A3CD1C05350E004BDFCC /* obj.png */,
+				F58F855B1BFED5A800AB626B /* net-icon.png */,
+				F58F85571BFED59C00AB626B /* ruby-on-rail.png */,
+				F58F85531BFED59000AB626B /* html.png */,
+				F58F854F1BFED58000AB626B /* python.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +128,7 @@
 				TargetAttributes = {
 					F58F85381BFE8E9600AB626B = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = L5TGCNWYET;
 					};
 				};
 			};
@@ -122,9 +155,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58F855C1BFED5A800AB626B /* net-icon.png in Resources */,
 				F58F85471BFE8E9600AB626B /* LaunchScreen.storyboard in Resources */,
 				F58F85441BFE8E9600AB626B /* Assets.xcassets in Resources */,
+				F58F85541BFED59000AB626B /* html.png in Resources */,
+				F58F855E1BFED5BB00AB626B /* java.png in Resources */,
+				F58F85581BFED59C00AB626B /* ruby-on-rail.png in Resources */,
+				F58F85561BFED59700AB626B /* swift.png in Resources */,
 				F58F85421BFE8E9600AB626B /* Main.storyboard in Resources */,
+				F58F85501BFED58000AB626B /* python.jpg in Resources */,
+				F5B5A3CC1C05350A004BDFCC /* cpp.png in Resources */,
+				F5B5A3CE1C05350E004BDFCC /* obj.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +203,114 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F543C2591C0A50C900385AF1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		F543C25A1C0A50C900385AF1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LearnCodingFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhaya.LearnCodingFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		F543C25B1C0A54C800385AF1 /* Release copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release copy";
+		};
+		F543C25C1C0A54C800385AF1 /* Release copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LearnCodingFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhaya.LearnCodingFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release copy";
+		};
 		F58F85491BFE8E9600AB626B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -179,7 +328,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -223,7 +373,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dayakar Reddy (3C56G776HW)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -247,10 +398,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LearnCodingFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhaya.LearnCodingFree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -258,10 +414,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LearnCodingFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhaya.LearnCodingFree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -273,6 +434,8 @@
 			buildConfigurations = (
 				F58F85491BFE8E9600AB626B /* Debug */,
 				F58F854A1BFE8E9600AB626B /* Release */,
+				F543C25B1C0A54C800385AF1 /* Release copy */,
+				F543C2591C0A50C900385AF1 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -282,8 +445,11 @@
 			buildConfigurations = (
 				F58F854C1BFE8E9600AB626B /* Debug */,
 				F58F854D1BFE8E9600AB626B /* Release */,
+				F543C25C1C0A54C800385AF1 /* Release copy */,
+				F543C25A1C0A50C900385AF1 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
